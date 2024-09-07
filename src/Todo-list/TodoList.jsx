@@ -120,7 +120,7 @@ const TodoList = () => {
                                     <input type="text" name="taskDesc" id="taskDesc" placeholder="Task Decription" value={formState.taskDesc} onChange={handleChange} />
                                 </div>
                                 <div className="col-lg-4">
-                                    <button type="submit" className="btn btn-success todo">{isEditTask ? 'Edit' : 'Add ToDo'}</button>
+                                    <button type="submit" className="btn btn-success todo" disabled={(formState.taskName.length === 0 || formState.taskDesc.length === 0)} >{isEditTask ? 'Edit' : 'Add ToDo'}</button>
                                 </div>
                             </div>
                         </form>
