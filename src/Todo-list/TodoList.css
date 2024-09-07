@@ -1,0 +1,18 @@
+button.todo {
+    width: 75%;
+    padding: 8px !important;
+    background-color: rgb(83, 226, 160) !important;
+    border-radius: 8px !important;
+    border-color: #53e2a0 !important;
+}
+#taskDesc, #taskName {
+    width: 90%;
+    padding: 8px;
+    border-color: rgb(83 226 160 / 50%);
+    border-radius: 4px;
+}
+div.container {
+    border: 1px solid;
+    padding: 1rem 1rem;
+    margin: 3rem 7rem;
+}
